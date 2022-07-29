@@ -14,13 +14,13 @@
 @import url(https://www.thoughtworks.com/css/k8s_production/screen.css);
 
 body {
-  font: 18px 'Open Sans';
+  font: 18px 'Arial';
   @if $UIRefresh2022 {
     font-family: $baseFontFamily;
 
     h1 {
       font-size: 2rem;
-      font-family: 'Bitter', serif;
+      font-family: 'Arial', serif;
       text-transform: none;
       letter-spacing: normal;
 
