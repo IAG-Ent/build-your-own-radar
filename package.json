@@ -6,7 +6,8 @@
     "scripts": {
       "build:dev": "webpack --mode development --config webpack.dev.js",
       "build:prod": "webpack --mode production --config webpack.prod.js",
-      "dev": "webpack-dev-server --mode development --host radar.iag.cloud --config webpack.dev.js",
+      "dev": "webpack-dev-server --mode development --allowed-hosts radar.iag.cloud --config webpack.dev.js",
+      "help": "webpack-dev-server --help",
       "test": "jest",
       "test:coverage": "jest --coverage",
       "test:e2e": "cypress open --env host=$TEST_URL",
